@@ -12,7 +12,7 @@ public class Empresa {
 
     private String nombre, direccion;
 
-    @Column(name = "nit")
+    @Column(name = "nit", unique = true)
     private String numeroNit;
 
     @Column(name = "fundacion")
